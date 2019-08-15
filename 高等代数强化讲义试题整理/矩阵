@@ -1,0 +1,89 @@
+\documentclass[a4paper]{article}
+\usepackage{geometry}
+\geometry{a4paper,scale=0.8}
+\usepackage{amsmath}
+\usepackage{mathrsfs}
+\usepackage{setspace}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[CJKbookmarks,colorlinks,linkcolor=blue]{hyperref}
+\usepackage{amscd}
+\usepackage{graphicx}
+\usepackage{bm}
+\usepackage{float}
+\usepackage{CJK}
+\begin{document}
+\hypersetup{CJKbookmarks=true}
+\begin{CJK}{GBK}{song}
+\begin{spacing}{1.75}
+
+\title{矩阵（1-4）}
+\date{}
+
+\maketitle
+
+\begin{center}
+ {\textbf{\Large{上（下）三角矩阵、基本矩阵与初等矩阵、秩1矩阵}}}
+\end{center}
+
+\noindent
+1.已知$A_1,A_2,\cdots,A_n$是$n$个对角元全都为零的$n$级上三角矩阵，证明$A_1A_2\cdots A_n=O$.\\
+~\\
+~\\
+~\\
+~\\
+~\\
+~\\
+~\\
+~\\
+~\\
+
+\noindent
+2.设$A=\left(\begin{array}{cc}
+ a & b\\
+ c & d\end{array}\right)$是数域$K$上的$2$级矩阵，证明：如果$|A|=1$，那么$A$可以表示成第三类初等矩阵$P(i,j(k))$的乘积.\\
+ ~\\
+ ~\\
+ ~\\
+ ~\\
+ ~\\
+ ~\\
+
+ \noindent
+ 3.设$A=(a_{ij})$是数域$K$上的$n(n\leq 2)$级矩阵，证明：如果$|A|=1$，那么$A$可以表示成第三类初等矩阵的乘积.\\
+ ~\\
+ ~\\
+ ~\\
+ ~\\
+ ~\\
+ ~\\
+
+ \noindent
+ 4.已知$A$是数域$P$上的一个$2\times 2$矩阵，且存在正整数$l$使得$A^l=O$，证明：$A^2=O$.\\
+ ~\\
+ ~\\
+ ~\\
+ ~\\
+ ~\\
+ ~\\
+
+ \noindent
+ 5.设$A$是$n$级正定矩阵，$\overrightarrow{\alpha}$为$n$维非零的实列向量，记$B=A\overrightarrow{\alpha}\overrightarrow{\alpha}'$，求$B$得特征值及相应的特征子空间的维数与一组基.\\
+ ~\\
+ ~\\
+ ~\\
+ ~\\
+ ~\\
+ ~\\
+ ~\\
+
+ \noindent
+ 6.已知$A$是一个$n(n\geq 2)$级矩阵，则$A^\ast$可以表示成$A$的多项式.
+
+
+
+
+\end{spacing}
+\clearpage
+\end{CJK}
+\end{document}
